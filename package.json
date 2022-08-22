@@ -1,0 +1,29 @@
+{
+  "name": "fluidgains-backend",
+  "version": "1.0.0",
+  "description": "Privacy-centric defi asset allocation and multichain yield optimizer protocol enabling you to boost defi yields based on your risk & return profile and Sharpe ratios chosen by yourself. Fluidgains is immune to MEV mining bots attempting to steal money by frontrunning and backrunning transactions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marswap/Fluidgains-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marswap/Fluidgains-Backend/issues"
+  },
+  "homepage": "https://github.com/Marswap/Fluidgains-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.0",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
